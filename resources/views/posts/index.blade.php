@@ -27,7 +27,7 @@
             <th>CategoryId</th>
             <th>Color</th>
             <th>Size</th>
-            <th>Prize</th>
+            <th>Price</th>
             <th width="280px">Action</th>
         </tr>
         @foreach ($data as $key => $value)
