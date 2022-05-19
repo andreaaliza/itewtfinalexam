@@ -29,14 +29,44 @@
      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Title:</strong>
-                <input type="text" name="title" class="form-control" placeholder="Enter Title">
+                <strong>ProductCode:</strong>
+                <input type="text" name="ProductCode" class="form-control" placeholder="ProductCode">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>ProductName:</strong>
+                <input type="text" name="ProductName" class="form-control" placeholder="ProductName">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Description:</strong>
-                <textarea class="form-control" style="height:150px" name="description" placeholder="Enter Description"></textarea>
+                <input type="text" name="Description" class="form-control" placeholder="Description">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>CategoryId:</strong>
+                <input type="text" name="CategoryId" class="form-control" placeholder="CategoryId">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Color:</strong>
+                <input type="text" name="Color" class="form-control" placeholder="Color">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Size:</strong>
+                <input type="text" name="Size" class="form-control" placeholder="Size">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Price:</strong>
+                <input type="text" name="Price" class="form-control" placeholder="Price">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
