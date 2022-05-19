@@ -14,9 +14,14 @@ class CreatePostTbl extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->text('description');
+            $table->id('ProductId');
+            $table->string('ProductCode');
+            $table->string('ProductName');
+            $table->string('Description');
+            $table->string('CategoryId');
+            $table->string('Color');
+            $table->string('Size');
+            $table->string('Price');
             $table->timestamps();
         });
     }
